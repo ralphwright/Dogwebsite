@@ -1,0 +1,93 @@
+body {
+	width: 98%;
+	min-width: 640px;
+	max-width: 980px;
+	font-family: Verdana, Times New Roman, Sans-Serif;
+	font-weight:normal;
+	font-size:16px;
+	margin:0px auto;
+}
+
+#mainContainer {
+	width: 100%;
+	background-image: url(images/phooey.jpg);
+}
+
+#headerIMG {
+	width: 100%;
+	height: 225px;
+}
+
+
+nav.horizontalNAV {
+	position: relative;
+	text-align: center;
+	background-color: rgb(220,201,180);
+	margin: 0px;
+	padding: 0px;
+	top: -20px;
+
+
+}
+
+nav.horizontalNAV ul {
+	list-style: none;
+}
+
+nav.horizontalNAV li a {
+	text-decoration: none;
+	color: rgb(255,255,99);
+	font-size: 16px;
+}
+
+nav.horizontalNAV li {
+	display: inline-block;
+	border:5px solid green;
+	border-radius: 25px;
+	padding: 10px;
+	background-color: rgb(100,200,100);
+}
+
+nav.horizontalNAV a:hover {
+	color: red;
+
+}
+
+#rightsidebar {
+	position: relative;
+	float: right;
+	width: 230px;
+	height: 300px;
+	background-color: rgb(175,174,175);
+	border-left: 1px solid black;
+	margin-left: 20px;
+	overflow: scroll;
+
+}
+
+#rightsidebar h1 {
+	font-size: 30px;
+	color: red;
+	padding-bottom: 20px;
+	text-decoration: underline;
+
+}
+
+#rightsidebar h2 {
+	font-size: 20px;
+	color: green;
+	background-color: yellow;
+	font-family: Comic Sans;
+
+}
+
+#rightsidebar p {
+	font-size: 20px;
+	font-family: Helvica;
+
+}
+
+
+section.h1 {
+	color: blue;
+}
